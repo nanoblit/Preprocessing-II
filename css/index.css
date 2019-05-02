@@ -437,6 +437,56 @@ img {
     width: 90%;
   }
 }
+.home > .form {
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+  border-top: 2px dashed #C0C0C0;
+}
+.home > .form > .form-element {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+@media (max-width: 500px) {
+  .home > .form > .form-element {
+    flex-direction: column;
+  }
+}
+.home > .form > .form-element > select,
+.home > .form > .form-element > input,
+.home > .form > .form-element > textarea {
+  width: 50%;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  font-family: "Roboto", sans-serif;
+}
+.home > .form > .form-element > select,
+.home > .form > .form-element > input {
+  height: 4rem;
+}
+.home > .form > .btn-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  width: 85%;
+  height: 4rem;
+  background-color: #ff2b47;
+  border-radius: 1.3rem;
+  transition: background-color 0.5s;
+  cursor: pointer;
+  width: 20rem;
+}
+@media (max-width: 500px) {
+  .home > .form > .btn-form {
+    width: 90%;
+  }
+}
+.home > .form > .btn-form:hover {
+  background-color: #ff455d;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

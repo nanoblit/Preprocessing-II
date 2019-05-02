@@ -1,0 +1,35 @@
+.home > .form {
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    border-top: 2px dashed @navigation-border;
+
+    > .form-element {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+
+        @media @mobile {
+            flex-direction: column;
+        }
+
+        > select,
+        > input,
+        > textarea {
+            width: 50%;
+            line-height: 1.5;
+            font-size: 1.6rem;
+            border-radius: 0.5rem;
+            font-family: "Roboto", sans-serif;
+        }
+
+        > select,
+        > input, {
+            height: 4rem;
+        }
+    }
+
+    > .btn-form {
+        .button(rgb(255, 43, 71));
+        width: 20rem;
+    }
+}
