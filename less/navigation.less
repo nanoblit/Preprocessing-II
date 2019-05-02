@@ -16,6 +16,8 @@
         }
 
         > h1 {
+            .shake(1);
+
             @media @mobile {
                 margin-bottom: 1.5rem;
             }
@@ -38,6 +40,10 @@
 
                 @media @mobile {
                     margin: 0;
+                }
+
+                &:hover {
+                    transform: translateY(-2rem);
                 }
             }
         }
