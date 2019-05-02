@@ -408,7 +408,7 @@ img {
 }
 @media (max-width: 500px) {
   .home > .content-pick > .destination > .btn {
-    width: 90%;
+    width: 100%;
   }
 }
 .home > .content-pick > .destination > .btn:hover {
@@ -434,7 +434,7 @@ img {
 }
 @media (max-width: 500px) and (max-width: 500px) {
   .home > .content-pick > .destination > .btn {
-    width: 90%;
+    width: 100%;
   }
 }
 .home > .form {
@@ -461,6 +461,13 @@ img {
   border-radius: 0.5rem;
   font-family: "Roboto", sans-serif;
 }
+@media (max-width: 500px) {
+  .home > .form > .form-element > select,
+  .home > .form > .form-element > input,
+  .home > .form > .form-element > textarea {
+    width: 100%;
+  }
+}
 .home > .form > .form-element > select,
 .home > .form > .form-element > input {
   height: 4rem;
@@ -481,7 +488,7 @@ img {
 }
 @media (max-width: 500px) {
   .home > .form > .btn-form {
-    width: 90%;
+    width: 100%;
   }
 }
 .home > .form > .btn-form:hover {
