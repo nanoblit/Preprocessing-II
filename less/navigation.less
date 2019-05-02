@@ -16,7 +16,7 @@
         }
 
         > h1 {
-            .shake(1);
+            .shake(3, ~"navh1shake");
 
             @media @mobile {
                 margin-bottom: 1.5rem;
@@ -33,6 +33,7 @@
             }
 
             > a {
+                .shake(1, ~"navashake");
                 margin-right: 3rem;
                 font-size: 1.6rem;
                 color: @font-color;
