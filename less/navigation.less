@@ -1,1 +1,21 @@
-// Navigation Styles here
+#navigation {
+    padding: 3rem 0;
+    border-bottom: 2px dashed @navigation-border;
+
+    > .container {
+        display: flex;
+        justify-content: space-between;
+
+        > nav {
+            display: flex;
+            align-items: center;
+
+            > a {
+                margin-right: 3rem;
+                font-size: 1.6rem;
+                color: @font-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
