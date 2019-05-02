@@ -1,1 +1,17 @@
-// Mixins in here
+.button(@color) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: @color;
+    border-radius: 1.3rem;
+    transition: background-color 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: lighten(@color, 5%)
+    }
+}
